@@ -35,7 +35,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "base64url-universal": "^2.0.0",
+    "@digitalcredentials/base64url-universal": "github:digitalcredentials/base64url-universal#rollup-build",
     "pako": "^2.0.4"
   },
   "devDependencies": {
