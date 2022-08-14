@@ -6,13 +6,13 @@ A Bitstring module for universal JavaScript.
 To install get the latest version from NPM:
 
 ```
-npm install @digitalbazaar/bitstring
+npm install @digitalcredentials/bitstring
 ```
 
 To install locally for development:
 
 ```
-git clone https://github.com/digitalbazaar/bitstring.git
+git clone https://github.com/digitalcredentials/bitstring.git
 cd bitstring
 npm install
 ```
@@ -20,7 +20,7 @@ npm install
 ## Usage
 
 ```js
-import {Bitstring} from '@digitalbazaar/bitstring';
+import {Bitstring} from '@digitalcredentials/bitstring';
 
 // You can make a new instance by passing in a length
 const bitstring = new Bitstring({length: 10});
@@ -77,11 +77,6 @@ PRs accepted.
 
 If editing the Readme, please conform to the
 [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
-
-## Commercial Support
-
-Commercial support for this library is available upon request from
-Digital Bazaar: support@digitalbazaar.com
 
 ## License
 

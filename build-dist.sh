@@ -1,6 +1,6 @@
 mkdir ./dist/esm
 cat >dist/esm/index.js <<!EOF
-import cjsModule from './lib/index.js';
+import * as cjsModule from '../index.js';
 export const Bitstring = cjsModule.Bitstring;
 !EOF
 
