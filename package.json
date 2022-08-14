@@ -3,14 +3,14 @@
   "version": "2.0.1-0",
   "description": "Bitstring module for universal JavaScript",
   "license": "BSD-3-Clause",
-  "type": "module",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
   "exports": {
     ".": {
       "require": "./dist/index.js",
       "import": "./dist/esm/index.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist",
@@ -35,7 +35,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@digitalcredentials/base64url-universal": "github:digitalcredentials/base64url-universal#rollup-build",
+    "@digitalcredentials/base64url-universal": "^2.0.2",
     "pako": "^2.0.4"
   },
   "devDependencies": {
@@ -47,7 +47,6 @@
     "eslint-config-digitalbazaar": "^3.0.0",
     "eslint-plugin-jsdoc": "^39.3.2",
     "eslint-plugin-unicorn": "^42.0.0",
-    "esm": "^3.2.25",
     "karma": "^6.3.20",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^3.1.1",
