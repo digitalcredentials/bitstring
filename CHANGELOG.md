@@ -1,5 +1,9 @@
 # bitstring ChangeLog
 
+## 2.0.1 - 2022-08-14
+### Fixed
+- Fix various esm export issues (add deps to rollup externals, fix export).
+
 ## 2.0.0 - 2022-06-02
 
 ### Changed
