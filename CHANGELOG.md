@@ -14,6 +14,9 @@
   little-endian byte order. This version will default to being consistently
   little-endian (for both bits and bytes).
 
+### Removed
+- **BREAKING**: Remove support for node 14, only node 16+ supported.
+
 ## 2.0.1 - 2022-08-14
 ### Fixed
 - Fix various esm export issues (add deps to rollup externals, fix export).
