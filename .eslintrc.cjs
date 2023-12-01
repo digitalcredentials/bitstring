@@ -6,5 +6,6 @@ module.exports = {
     'digitalbazaar',
     'digitalbazaar/jsdoc',
     'digitalbazaar/module'
-  ]
+  ],
+  ignorePatterns: ['dist', 'post-test.js', 'pre-test.js']
 };
