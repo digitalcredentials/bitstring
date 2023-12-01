@@ -1,4 +1,4 @@
-# bitstring ChangeLog
+# @digitalcredentials/bitstring ChangeLog
 
 ## 3.1.0 - 2023-12-01
 
