@@ -1,6 +1,12 @@
 # @digitalcredentials/bitstring ChangeLog
 
-## 3.1.0 - 2023-12-01
+## 3.1.1 - 2023-12-01
+
+### Fixed
+- Fix test execution by implementing pre-test and post-test scripts.
+- Improve rollup config script.
+
+## 3.1.0 - 2023-01-08
 
 ### Changed
 - Rename `littleEndianBits` to `leftToRightIndexing` to try and avoid
@@ -8,10 +14,6 @@
   of the meaning of "big" or "little" endianness for bits (as opposed to
   bytes where it is more clear). Therefore, that terminology is to be
   avoided. The old parameter name can still be used, but is deprecated.
-
-### Fixed
-- Fix test execution by implementing pre-test and post-test scripts.
-- Improve rollup config script.
 
 ## 3.0.0 - 2023-01-08
 
