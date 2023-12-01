@@ -1,11 +1,24 @@
 export default [
+  // CommonJS
   {
     input: './lib/index.js',
     output: [
       {
-        dir: 'dist',
+        file: 'dist/index.js',
         format: 'cjs',
-        preserveModules: true
+        exports: 'auto'
+      }
+    ],
+    external: ['@digitalcredentials/base64url-universal', 'pako']
+  },
+  // ESM
+  {
+    input: './lib/index.js',
+    output: [
+      {
+        file: 'dist/esm/index.js',
+        format: 'esm',
+        exports: 'auto'
       }
     ],
     external: ['@digitalcredentials/base64url-universal', 'pako']

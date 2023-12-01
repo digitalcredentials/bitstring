@@ -24,7 +24,9 @@
     "rollup": "rollup -c rollup.config.js",
     "build": "npm run clear && npm run rollup && ./build-dist.sh",
     "clear": "rimraf dist/ && mkdir dist",
+    "posttest": "node post-test.js",
     "prepare": "npm run build",
+    "pretest": "node pre-test.js",
     "rebuild": "npm run clear && npm run build",
     "test": "npm run test-node",
     "test-node": "cross-env NODE_ENV=test mocha --preserve-symlinks -t 30000 -A -R ${REPORTER:-spec} --require tests/test-mocha.js tests/*.spec.js",
@@ -35,7 +37,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@digitalcredentials/base64url-universal": "^2.0.2",
+    "@digitalcredentials/base64url-universal": "file:../base64url-universal",
+    "@npmcli/package-json": "^5.0.0",
     "pako": "^2.0.4"
   },
   "devDependencies": {
