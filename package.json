@@ -37,7 +37,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@digitalcredentials/base64url-universal": "file:../base64url-universal",
+    "@digitalcredentials/base64url-universal": "^2.0.3",
     "pako": "^2.0.4"
   },
   "devDependencies": {
