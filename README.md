@@ -1,5 +1,9 @@
-# Bitstring
-A Bitstring module for universal JavaScript.
+# Universal Bitstring Library _(@digitalcredentials/bitstring)_
+
+[![Build status](https://img.shields.io/github/actions/workflow/status/digitalcredentials/bitstring/main.yml?branch=main)](https://github.com/digitalcredentials/bitstring/actions?query=workflow%3A%22Node.js+CI%22)
+[![NPM Version](https://img.shields.io/npm/v/@digitalcredentials/bitstring.svg)](https://npm.im/@digitalcredentials/bitstring)
+
+> A Bitstring module for Javascript (Node, browsers, React Native).
 
 ## Install
 
