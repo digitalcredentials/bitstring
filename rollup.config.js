@@ -4,21 +4,9 @@ export default [
     input: './lib/index.js',
     output: [
       {
-        file: 'dist/index.js',
+        dir: 'dist',
         format: 'cjs',
-        exports: 'auto'
-      }
-    ],
-    external: ['@digitalcredentials/base64url-universal', 'pako']
-  },
-  // ESM
-  {
-    input: './lib/index.js',
-    output: [
-      {
-        file: 'dist/esm/index.js',
-        format: 'esm',
-        exports: 'auto'
+        preserveModules: true
       }
     ],
     external: ['@digitalcredentials/base64url-universal', 'pako']
