@@ -1,6 +1,6 @@
 # @digitalcredentials/bitstring ChangeLog
 
-## 3.1.1 - 2023-12-01
+## 3.1.1-3.1.2 - 2023-12-01
 
 ### Fixed
 - Fix test execution by implementing pre-test and post-test scripts.
